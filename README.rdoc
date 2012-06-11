@@ -7,7 +7,7 @@ Purely for experimental purposes. Piracy is bad.
 
 == Installation
 
-First, fork or clone this repo, then, in Chrome:
+First, fork, clone or download this repo, then, in Chrome:
 
 1. Wrench -> Settings -> Extensions
 2. Enable developer mode
