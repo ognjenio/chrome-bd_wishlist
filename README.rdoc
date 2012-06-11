@@ -7,10 +7,10 @@ Purely for experimental purposes. Piracy is bad.
 
 == Installation
 
-First, fork or clone this repo then, in Chrome:
+First, fork or clone this repo, then, in Chrome:
 
- 1. Wrench -> Settings -> Extensions
- 2. Enable developer mode
- 3. Load unpacked extension
- 4. Navigate to where you saved the extension
- 5. Done diddly, {check it out}[http://www.imdb.com/title/tt0068646/]
+1. Wrench -> Settings -> Extensions
+2. Enable developer mode
+3. Load unpacked extension
+4. Navigate to where you saved the extension
+5. Done diddly, {check it out}[http://www.imdb.com/title/tt0068646/]
