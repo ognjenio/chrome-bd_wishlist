@@ -5,10 +5,9 @@ A Chrome extension that adds a Pirate Bay link to an IMDB page.
 
 Purely for experimental purposes. Piracy is bad.
 
-Installation:
- - Fork or clones this repo
+== Installation
 
-Then, in Chrome:
+First, fork or clone this repo then, in Chrome:
 
  1. Wrench -> Settings -> Extensions
  2. Enable developer mode
