@@ -1,0 +1,15 @@
+{
+  "name": "pb_imdb",
+  "version": "1.0",
+  "description": "Pirate Bay link on IMDB page.",
+  "content_scripts": [
+    {
+      "matches": ["http://*.imdb.com/title/*"],
+      "js": ["jquery.min.js", "main.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "imdb.com", "tabs"
+  ]
+}
