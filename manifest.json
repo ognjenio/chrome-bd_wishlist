@@ -1,15 +1,14 @@
 {
-  "name": "pb_imdb",
+  "name": "bd_wishlist",
   "version": "1.0",
-  "description": "Pirate Bay link on IMDB page.",
+  "manifest_version": 2,
+  "description": "Wishlist button on results page of Bookdepository.",
   "content_scripts": [
     {
-      "matches": ["http://*.imdb.com/title/*"],
+      "matches": ["http://*.bookdepository.com/*", "http://*.bookdepository.co.uk/*"],
       "js": ["jquery.min.js", "main.js"],
       "run_at": "document_end"
     }
   ],
-  "permissions": [
-    "imdb.com", "tabs"
-  ]
+  "permissions": ["tabs"]
 }

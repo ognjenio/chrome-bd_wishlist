@@ -1,16 +1,15 @@
-function trim(s)
+var boxes = $(".tabModules .bookSmall");
+
+for (var i = 0; i < boxes.length; i++)
 {
-  s = s.replace(/(^\s*)|(\s*$)/gi,"");
-	s = s.replace(/[ ]{2,}/gi," ");
-	s = s.replace(/\n /,"\n");
-	return s;
+  var cur = $(boxes[i]);
+
+
+  var hook = $(cur.find(".moduleContent"));
+
+  var title = cur.find("h3 a").text();
+  var isbn = cur.find("h3 a").attr('href').split('/')[cur.find("h3 a").attr('href').split('/').length-1];
+
+  var full_link = "<br/><span class=\"linkSurround button wishList loggedin\"><a href=\"http://www.bookdepository.co.uk/account/addtowishlist/isbn/" + isbn + "\" title=\"Add " + title + " to wishlist\"><em>Add to wishlist</em></a></span><br/>";
+  hook.append(full_link);
 }
-
-//"background_page": "background.html",
-
-var title_hook = $("#overview-top").find("h1");
-var movie_name = trim(title_hook.html().split("<span")[0]);
-
-var full_link = "<a href=\"http://thepiratebay.se/search/" + movie_name + "/7\"><img src=\"" + chrome.extension.getURL('icon.png') + "\" height=\"16\"></a>";
-
-title_hook.prepend(full_link);
