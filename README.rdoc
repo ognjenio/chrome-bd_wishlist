@@ -1,0 +1,14 @@
+== chrome-bd_wishlist
+=======
+
+A Chrome extension that adds an add to wishlist to most bookdepository.com pages
+
+== Installation
+
+First, fork, clone or download this repo, then, in Chrome:
+
+1. Settings -> Extensions
+2. Enable developer mode
+3. Load unpacked extension
+4. Navigate to where you saved the extension
+5. Done diddly, {check it out}[bookdepository.com]
